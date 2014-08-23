@@ -44,7 +44,7 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_BOOTLOADER_BOARD_NAME := w7
 
 # Build and optimization
-TARGET_GCC_VERSION_EXP := arm-linux-androideabi-4.10
+TARGET_GCC_VERSION_EXP := 4.10
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.10
 
 # Kernel image
