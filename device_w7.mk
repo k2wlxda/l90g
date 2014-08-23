@@ -305,7 +305,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     lpa.decode=true \
-    qcom.hw.aac.encoder=false \
+    qcom.hw.aac.encoder=true \
     af.resampler.quality=255 \
     persist.audio.lowlatency.rec=false
 
@@ -359,7 +359,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.call_type=1 \
     ro.config.vc_call_vol_steps=7 \
-    ro.modem.no_wdog_chk=1
+    ro.modem.no_wdog_chk=1 \
+    persist.call_recording.enabled=1 \
 
 # NFC packages
 PRODUCT_PACKAGES += \
